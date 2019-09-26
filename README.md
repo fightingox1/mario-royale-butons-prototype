@@ -10,4 +10,8 @@ a module you need pip install for windows or you could use pipwin whatever you w
 I wrote this on school computers which don't have python
 # use in the PYTHON SHELL it is still just a prototype if for some reason you dont have it yet here https://www.python.org/downloads/
 click the big yellow button the first one you see dont get python 2
+# still just a prototype
+what it does is use arrow keys as input and changes pages up and down when you click it also has a limmit to page numbers
+so if you are at 1 you cant go down if you are at 50 you cant go up change the limits as much as you want
+
 
