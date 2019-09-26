@@ -1,3 +1,4 @@
+ import tkinter as tk
  #the page that u need to be on
  page_number = 1
  def KeyCheck():
