@@ -12,6 +12,7 @@ I wrote this on school computers which don't have python
 click the big yellow button the first one you see dont get python 2
 # still just a prototype
 what it does is use arrow keys as input and changes pages up and down when you click it also has a limmit to page numbers
-so if you are at 1 you cant go down if you are at 50 you cant go up change the limits as much as you want
+so if you are at 1 you cant go down if you are at 10 you cant go up change the limits as much as you want it just makes it so
+you can't go in the negatives but if you would like you can change that
 
 
