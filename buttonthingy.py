@@ -1,7 +1,7 @@
- import tkinter as tk
-  stop adding page number = no
-  stop subtracting page number = yes
- #the page that u need to be on
+import tkinter as tk
+stop adding page number = no
+stop subtracting page number = yes
+#the defualt page you are on
 page_number = 1
 def KeyCheck():
  while repeat =="go":
@@ -18,17 +18,17 @@ def KeyCheck():
      
     while Break_KeyCheck:
      base = getch()
-     if base == '\xe0':
-      sub = getch()
+    if base == '\xe0':
+     sub = getch()
 
-      if sub == 'H':
-       key = 'UP_KEY'
-      elif sub == 'M':
-       key = 'RIGHT_KEY'
-      elif sub == 'P':
-       key = 'DOWN_KEY'
-      elif sub == 'K':
-       key = 'LEFT_KEY'
+     if sub == 'H':
+      key = 'UP_KEY'
+     elif sub == 'M':
+      key = 'RIGHT_KEY'
+     elif sub == 'P':
+      key = 'DOWN_KEY'
+     elif sub == 'K':
+      key = 'LEFT_KEY'
 
  Thread(target = KeyCheck).start()
  if key == "LEFT_KEY":
