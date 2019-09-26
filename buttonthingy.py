@@ -1,6 +1,6 @@
 import tkinter as tk
-stop_adding_page_number = no
-stop_subtracting_page_number = yes
+stop_adding_page_number = False
+stop_subtracting_page_number = False
 #the defualt page you are on
 page_number = 1
 def KeyCheck():
@@ -9,9 +9,9 @@ def KeyCheck():
   #stops letting the page numbe go up or down if it is at max change the number 28 if there is another page to 29 or however many 
   #pages there are
   if page_number == "28":
-   stop_adding_page_number = yes
+   stop_adding_page_number = True
   if page number == "1":
-    stop_subtracting _page_number = yes
+    stop_subtracting _page_number = True
     #says what page is selected
     global Break_KeyCheck
     Break_KeyCheck = False
@@ -32,13 +32,13 @@ def KeyCheck():
 
  Thread(target = KeyCheck).start()
  if key == "LEFT_KEY":
-   if stop_subtracting_page_number == "no":
+   if stop_subtracting_page_number == "True":
     page_number = page_number-1
    #changes the page number value down one
    repeat = go
    #repeats the code for the arrows with the changed value
  if key == "RIGHT_KEY": 
-  if stop_adding_page_number == "no":
+  if stop_adding_page_number == "True":
    page_number = page_number+1
   #changes the page number value up one
   repeat = go
