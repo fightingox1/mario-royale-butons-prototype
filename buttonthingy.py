@@ -8,10 +8,14 @@ def KeyCheck():
   print(page_number)
   #stops letting the page numbe go up or down if it is at max change the number 28 if there is another page to 29 or however many 
   #pages there are
-  if page_number == "10":
+  while page_number == "10":
    stop_adding_page_number = True
-  if page number == "1":
+  else:
+   stop_adding_page_number = False
+  while page number == "1":
     stop_subtracting _page_number = True
+   else:
+    stop_subtracting _page_number = False
     #says what page is selected
     global Break_KeyCheck
     Break_KeyCheck = False
